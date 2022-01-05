@@ -261,7 +261,7 @@ The result is cached for one second to avoid hiccups."
    `(font-lock-doc-face ((,class (:foreground ,green-light))))
    `(font-lock-type-face ((,class (:foreground ,blue))))
    `(font-lock-variable-name-face ((,class (:foreground ,blue))))
-   `(font-lock-warning-face ((,class (:foreground ,red :weight bold :background ,background-red))))
+   `(font-lock-warning-face ((,class (:foreground ,red :weight bold))))
 
    ;; Mode line faces
    `(mode-line ((,class (:background ,mode-line :height 0.9 :foreground ,light
