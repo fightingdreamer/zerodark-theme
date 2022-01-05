@@ -489,17 +489,17 @@ The result is cached for one second to avoid hiccups."
 
    ;; org-mode todo
    `(org-hide ((,class (:foreground ,background))))
-   `(org-todo ((,class (:foreground ,red :background ,background-red :weight bold))))
-   `(org-done ((,class (:foreground ,green :background ,background-green :weight bold))))
-   `(org-date ((,class (:foreground ,purple :background ,background-purple :weight bold))))
+   `(org-todo ((,class (:foreground ,red :weight bold))))
+   `(org-done ((,class (:foreground ,green :weight bold))))
+   `(org-date ((,class (:foreground ,purple :weight bold))))
    `(org-scheduled-previously ((,class (:foreground ,red))))
    `(org-scheduled ((,class (:foreground ,default))))
    `(org-upcoming-deadline ((,class (:foreground ,orange))))
    `(org-headline-done ((,class (:foreground ,comment))))
-   `(org-document-title ((,class (:foreground ,orange :height 1.5))))
-   `(outline-1 ((,class (:foreground ,peach :weight bold :height 1.3))))
-   `(outline-2 ((,class (:foreground ,purple :weight bold :height 1.2))))
-   `(outline-3 ((,class (:foreground ,blue :weight bold :height 1.1))))
+   `(org-document-title ((,class (:foreground ,orange))))
+   `(outline-1 ((,class (:foreground ,peach :weight bold))))
+   `(outline-2 ((,class (:foreground ,purple :weight bold))))
+   `(outline-3 ((,class (:foreground ,blue :weight bold))))
    `(outline-4 ((,class (:foreground ,green-light :weight bold))))
    `(outline-5 ((,class (:foreground ,peach :weight bold))))
    `(outline-6 ((,class (:foreground ,purple :weight bold))))
@@ -519,8 +519,8 @@ The result is cached for one second to avoid hiccups."
    `(org-column-title ((,class (:background ,background-blue :foreground ,blue :weight bold))))
 
    ;; org blocks
-   `(org-block-begin-line ((,class (:background ,bright-background-blue :foreground ,default :height 0.9 :extend t))))
-   `(org-block-end-line ((,class (:background ,bright-background-blue :foreground ,default :height 0.9 :extend t))))
+   `(org-block-begin-line ((,class (:background ,bright-background-blue :foreground ,default :extend t))))
+   `(org-block-end-line ((,class (:background ,bright-background-blue :foreground ,default :extend t))))
    `(org-block ((,class (:background ,background-blue :foreground ,default :extend t))))
 
    ;; org-drill
